@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                         ivIcon.setImageResource(getIcon(code));
                     }
                 } catch (JSONException e) {
-                    e.printStackTrace();
+                    e.printStackTrace(); //test purpose
                 }
             }
         }
